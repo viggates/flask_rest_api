@@ -1,7 +1,6 @@
 #!flask/bin/python
 from flask import Flask, jsonify, session
-#from innobotz_api.modules.IRPrediction import Prediction as Prediction
-from centrify_fake.modules.auth import Authentication as Authentication
+from simple_api.modules.tickets import Predictor as Predictor
 
 
 app = Flask(__name__)
@@ -20,7 +19,7 @@ def index(ir_no):
     return ret[0]
 '''
 
-@app.route('/centrify/auth', methods=['GET'])
+@app.route('/simpel_api/auth', methods=['GET'])
 def authenticate():
     a = Authentication()
     ret = a.authenticate()

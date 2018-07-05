@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: simple-api
+Version: 1.0
+Summary: simple-api
+Home-page: https://key-value.blogspot.com
+Author: Vigneshvar A S
+Author-email: vigneshvar.a.s@gmail.com
+License: No one
+Description: simple  api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Communications
+Classifier: Topic :: System :: Networking
